@@ -564,11 +564,15 @@
     <section class=signup-container>
         <div class="container">
             <h3>Sign Up For Newsletters</h3>
-            <div class=signup>
-                <p>Get E-mail updates about our latest shop and<span class="text-warning"> special offers </span>
-                <div class=email-signup d-flex>
-                    <input type="email" id="email" placeholder="Your email address">
+            <div class="signup">
+                <p style="color: #fafafa;">Get E-mail updates about our latest shop and<span class="text-warning"> special offers </span>
+                <div class="email-signup">
+                   <div class="d-flex" style="flex-wrap: wrap;">
+                    <div class="w-100 d-flex" style="justify-content: center;">
+                      <input type="email" id="email" placeholder="Your email address">
                     <button onclick="validateEmail()">Sign Up</button>
+                    </div>
+                   </div>
                     <div id="error-message" class="error-message"></div>
                 </div>
 
